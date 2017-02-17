@@ -74,6 +74,12 @@ margin:5px;
 font-size:18px;
 font-family:COMIC SANS MS;
 }
+
+#form{
+	float:right;
+	padding-right:8px;
+	line-height:40px;
+}
 .content_wrapper{
 	width:1000px;
 	height:600px;
@@ -86,12 +92,40 @@ font-family:COMIC SANS MS;
 	float:left;
 	background:black;
 }
+#side_title{
+	width:200px;
+	height:auto;
+	font-size:22px;
+	font-family: arial;
+	text-align:center;
+	background:white;
+}
+
+#category_title {
+text-align:center;
+}
+
+#category_title li {
+list-style:none;
+}
+
+#category_title a {
+text-decoration:none;
+color:white;
+padding:8px;
+margin:5px;
+font-size:18px;
+font-family:COMIC SANS MS;
+}
+	
+}
 
 #product{
 	width:800px;
-	height:600px;
 	float:right;
-	
+	text-align:center;
+	margin-left:30px;
+	margin-bottom:10px; 
 }
 
 .foot_wrapper{

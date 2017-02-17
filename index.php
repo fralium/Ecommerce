@@ -35,6 +35,14 @@
 				<li><a href="#">Shopping Cart</a></li>
 				<li><a href="#">Contact Us</a></li>
 			</ul>
+			
+			<div id="form">
+				<form method="get" action="results.php" enctype="multipart/form-data">
+					<input type="text" name="user_query" placeholder="Search a Product"/ > 
+					<input type="submit" name="search" value="Search" />
+				</form>
+			
+			</div>
 		
 		</div>
 		<!--Menu End-->
@@ -42,14 +50,47 @@
 		<!--Content Start-->
 		<div class="content_wrapper">
 		
-			<div id="side"> side</div>
-			<div id="product"> product</div>
+			<div id="side"> 
+				
+				<div id="side_title">
+					Category
+				</div>
+				
+				<div id="category_title">
+					<li><a href="#">Computer</a></li>
+					<li><a href="#">Pad</a></li>
+					<li><a href="#">Phone</a></li>
+					<li><a href="#">Camera</a></li>
+					<li><a href="#">TV</a></li>
+					<li><a href="#">Accessory</a></li>
+					
+				</div>
+				
+				<div id="side_title">
+					Brand
+				</div>
+				
+				<div id="category_title">
+					<li><a href="#">Apple</a></li>
+					<li><a href="#">DELL</a></li>
+					<li><a href="#">Canon</a></li>
+					<li><a href="#">Sony</a></li>
+					<li><a href="#">Lenovo</a></li>
+					<li><a href="#">Huawei</a></li>
+					
+				</div>
+			
+			</div>
+			
+			<div id="product"> 
+			product
+			</div>
 		</div>
 		<!--Content End-->
 		
 		<!--Foot Start-->		
 		<div class="foot_wrapper">
-		foot
+			<h3 style="text-align:center; ">&copy; 2014 by www.OnlineTuting.com</h3>
 		</div>
 		<!--Foot End---->
 	
