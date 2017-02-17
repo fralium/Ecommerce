@@ -13,33 +13,30 @@
 
 <body>
 
-	<div class="main">
+	<div class="main_wrapper">
+	
+		<div class="head_wrapper">
+		asdb
+		</div>
+		
+		<div class="menu_wrapper">
+		menu
+		</div>
+	
+		<div class="content_wrapper">
+		
+			<div id="side"> side</div>
+			<div id="product"> product</div>
+		</div>
+		
+		<div class="foot_wrapper">
+		foot
+		</div>
+	
+	
+	</div>
 
-	<div class="head">
 	
-	This is head!
-	
-	</div>
-	<div class="content">
-	
-	<div class="menu">
-	This is menu
-	</div>
-	
-	<div class="product">
-	This is product
-	</div>
-	
-	
-	<div class="bottom">
-	This is bottom
-	</div>
-	</div>
-	
-	
-	
-	
-	</div>
 	
 </body>
 

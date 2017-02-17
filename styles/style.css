@@ -2,6 +2,8 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+
+
 /* remove the default setting of brower */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -29,5 +31,48 @@ footer, header, hgroup, menu, nav, section {
 /**/
 /**/
 
+body {background:#f7f0c7}
 
-body {background:skyblue}
+.main_wrapper{
+	width:1000px;
+	height:auto;
+	margin:auto;
+	background:#afc0d7
+	
+}
+
+.head_wrapper{
+	width:1000px;
+	height:100px;
+}
+
+.menu_wrapper{
+	width:1000px;
+	height:50px;
+	background:#afc0d7;
+}
+.content_wrapper{
+	width:1000px;
+	height:600px;
+	background:white;
+}
+
+#side{
+	width:200px;
+	height:600px;
+	float:left;
+	background:black;
+}
+
+#product{
+	width:800px;
+	height:600px;
+	float:right;
+	
+}
+
+.foot_wrapper{
+	width:1000px;
+	height:50px;
+	background:#afc0d7;
+}
