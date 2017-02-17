@@ -46,10 +46,33 @@ body {background:#f7f0c7}
 	height:100px;
 }
 
+#logo {float:left;}
+#bogo {float:right;}
+
+
 .menu_wrapper{
 	width:1000px;
 	height:50px;
-	background:#afc0d7;
+	background:#5c7598;
+}
+
+#menu {
+line-height:40px;
+float:left;
+}
+
+#menu li {
+list-style:none;
+display:inline;
+}
+
+#menu a {
+text-decoration:none;
+color:white;
+padding:8px;
+margin:5px;
+font-size:18px;
+font-family:COMIC SANS MS;
 }
 .content_wrapper{
 	width:1000px;
