@@ -64,6 +64,7 @@ float:left;
 #menu li {
 list-style:none;
 display:inline;
+margin:5px;
 }
 
 #menu a {
@@ -75,6 +76,7 @@ font-size:18px;
 font-family:COMIC SANS MS;
 }
 
+#menu a:hover{color:orange;font-weight:bolder;text-decoration:underline;}
 #form{
 	float:right;
 	padding-right:8px;
@@ -95,6 +97,7 @@ font-family:COMIC SANS MS;
 #side_title{
 	width:200px;
 	height:auto;
+	
 	font-size:22px;
 	font-family: arial;
 	text-align:center;
@@ -107,6 +110,7 @@ text-align:center;
 
 #category_title li {
 list-style:none;
+margin:5px;
 }
 
 #category_title a {
@@ -114,18 +118,25 @@ text-decoration:none;
 color:white;
 padding:8px;
 margin:5px;
-font-size:18px;
+font-size:20px;
 font-family:COMIC SANS MS;
 }
 	
-}
+#category_title a:hover{color:orange;font-weight:bolder;text-decoration:underline;}
 
+.product_wrapper{
+	width:800px;
+	 
+	float:right;
+	background:skyblue;
+}
 #product{
 	width:800px;
 	float:right;
-	text-align:center;
+	height:600px;
 	margin-left:30px;
 	margin-bottom:10px; 
+	background:blue;
 }
 
 .foot_wrapper{

@@ -1,4 +1,8 @@
 <!DOCTYPE>
+<?php 
+
+include("functions/functions.php");
+?>
 <html>
 
 <head>
@@ -57,12 +61,8 @@
 				</div>
 				
 				<div id="category_title">
-					<li><a href="#">Computer</a></li>
-					<li><a href="#">Pad</a></li>
-					<li><a href="#">Phone</a></li>
-					<li><a href="#">Camera</a></li>
-					<li><a href="#">TV</a></li>
-					<li><a href="#">Accessory</a></li>
+				
+					<?php getCategory(); ?>
 					
 				</div>
 				
@@ -71,18 +71,14 @@
 				</div>
 				
 				<div id="category_title">
-					<li><a href="#">Apple</a></li>
-					<li><a href="#">DELL</a></li>
-					<li><a href="#">Canon</a></li>
-					<li><a href="#">Sony</a></li>
-					<li><a href="#">Lenovo</a></li>
-					<li><a href="#">Huawei</a></li>
+					
+					<?php getBrand(); ?>
 					
 				</div>
 			
 			</div>
 			
-			<div id="product"> 
+			<div class="product_wrapper"> 
 			product
 			</div>
 		</div>
