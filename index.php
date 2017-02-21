@@ -22,7 +22,7 @@ include("functions/functions.php");
 		<!--Head Start-->
 		<div class="head_wrapper">
 		
-			<img id="logo" src="images/logo.gif"> </img>
+			<a href="index.php"><img id="logo" src="images/logo.gif"> </img> </a>
 			<img id="bogo" src="images/bogo.gif"></img>
 			
 		</div>
@@ -32,11 +32,11 @@ include("functions/functions.php");
 		<div class="menu_wrapper">
 			
 			<ul id="menu">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">All product</a></li>
-				<li><a href="#">My account</a></li>
+				<li><a href="index.php">Home</a></li>
+				<li><a href="all_products.php">All product</a></li>
+				<li><a href="customer/my_account.php">My account</a></li>
 				<li><a href="#">Sign Up</a></li>
-				<li><a href="#">Shopping Cart</a></li>
+				<li><a href="cart.php">Shopping Cart</a></li>
 				<li><a href="#">Contact Us</a></li>
 			</ul>
 			
@@ -78,8 +78,14 @@ include("functions/functions.php");
 			
 			</div>
 			
+			<div class="shopping_cart"> 
+			<h2>Shopping Cart</h2>
+			</div>
+			
 			<div class="product_wrapper"> 
-			product
+			<?php getProduct(); ?>
+			<?php getCategoryProduct(); ?>
+			<?php getBrandProduct(); ?>
 			</div>
 		</div>
 		<!--Content End-->

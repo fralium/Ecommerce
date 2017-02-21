@@ -8,9 +8,12 @@ CREATE TABLE `ecommerce`.`categories` ( `cat_id` INT(100) NOT NULL AUTO_INCREMEN
 #Create Table products
 CREATE TABLE `ecommerce`.`brands` ( `brand_id` INT(100) NOT NULL AUTO_INCREMENT , `brand_title` text(255) NOT NULL , PRIMARY KEY (`brand_id`)) ENGINE = InnoDB
 
+#Create Table cart
+CREATE TABLE `ecommerce`.`cart` ( `p_id` INT(10) NOT NULL , `ip_add` VARCHAR(255) NOT NULL , `qty` INT(10) NOT NULL ) ENGINE = InnoDB; 
+
 
 #Insert Table brand values
-INSERT INTO `brands` (`brand_id`, `brand_title`) VALUES (NULL, 'Lenovo'), (NULL, 'Sony'), (NULL, 'HP'), (NULL, 'DELL'), (NULL, 'Huawei'), (NULL, 'LG'), (NULL, 'Samsung')
+INSERT INTO `brands` (`brand_id`, `brand_title`) VALUES (NULL, 'Lenovo'), (NULL, 'Sony'), (NULL, 'HP'), (NULL, 'DELL'), (NULL, 'Huawei'), (NULL, 'LG'), (NULL, 'Samsung'), (NULL, 'Apple')
 
 
 #Insert Table categories values

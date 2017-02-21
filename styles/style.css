@@ -84,13 +84,13 @@ font-family:COMIC SANS MS;
 }
 .content_wrapper{
 	width:1000px;
-	height:600px;
+	height:800px;
 	background:white;
 }
 
 #side{
 	width:200px;
-	height:600px;
+	height:800px;
 	float:left;
 	background:black;
 }
@@ -126,18 +126,32 @@ font-family:COMIC SANS MS;
 
 .product_wrapper{
 	width:800px;
-	 
+	
 	float:right;
-	background:skyblue;
+	background:white;
+}
+
+.shopping_cart {
+	width:800px;
+	height:50px;
+	color:white;
+	background:black;
+	float:right;
+	text-align:right;
+	line-height:40px;
+	
 }
 #product{
 	width:800px;
 	float:right;
-	height:600px;
+	
 	margin-left:30px;
 	margin-bottom:10px; 
 	background:blue;
 }
+
+#single_product {float:left; margin-left:45px; padding:10px;}
+#single_product img{border:2px solid black;}
 
 .foot_wrapper{
 	width:1000px;
