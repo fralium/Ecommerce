@@ -32,11 +32,11 @@ include("functions/functions.php");
 		<div class="menu_wrapper">
 			
 			<ul id="menu">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">All product</a></li>
-				<li><a href="#">My account</a></li>
+				<li><a href="index.php">Home</a></li>
+				<li><a href="all_products.php">All product</a></li>
+				<li><a href="customer/my_account.php">My account</a></li>
 				<li><a href="#">Sign Up</a></li>
-				<li><a href="#">Shopping Cart</a></li>
+				<li><a href="cart.php">Shopping Cart</a></li>
 				<li><a href="#">Contact Us</a></li>
 			</ul>
 			
@@ -79,7 +79,7 @@ include("functions/functions.php");
 			</div>
 			
 			<div class="shopping_cart"> 
-			<h2>Shopping Cart</h2>
+			<h2>My Shopping Cart   Total Items: <?php total_items(); ?> Total Price: <?php total_price(); ?></h2> 
 			</div>
 			
 			<div class="product_wrapper"> 

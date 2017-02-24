@@ -1,6 +1,6 @@
 <!DOCTYPE>
 <?php 
-session_start(); 
+session_start();
 include("functions/functions.php");
 ?>
 <html>
@@ -78,6 +78,10 @@ include("functions/functions.php");
 			
 			</div>
 			
+			<!--Shopping Cart function-->
+			<?php cart(); ?> 
+			
+			
 			<div class="shopping_cart"> 
 			
 			<span style="float:right; font-size:17px; padding:5px; line-height:40px;">
@@ -91,31 +95,27 @@ include("functions/functions.php");
 			?>
 			
 					<b style="color:yellow">Shopping Cart -</b> Total Items: <?php total_items();?> Total Price: <?php total_price(); ?> <a href="index.php" style="color:yellow">Back to Shopping</a>
-					<?php 
-					if(!isset($_SESSION['customer_email'])){
-					
-					echo "<a href='checkout.php' style='color:orange;'>Login</a>";
-					
-					}
-					else {
-					echo "<a href='logout.php' style='color:orange;'>Logout</a>";
-					}
-					
-					
-					
-					?>
 			
 			
 			
-			</span>  
+			</span> 
+			
 			</div>
 			
 			<div class="product_wrapper"> 
-			
-			<?php getProduct(); ?>
-			<?php getProductall(); ?>
-			<?php getCategoryProduct(); ?>
-			<?php getBrandProduct(); ?>
+		
+				<?php 
+					if (!isset($_SESSION['customer_email'])){
+						
+						include ("customer_login.php");
+					}
+					else {
+						
+						include ("payment.php");
+						
+					}
+				?>
+						
 			</div>
 		</div>
 		<!--Content End-->

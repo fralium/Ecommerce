@@ -78,9 +78,14 @@ include("functions/functions.php");
 			
 			</div>
 			
+			
+			
 			<div class="shopping_cart"> 
 			<h2>Shopping Cart</h2>
 			</div>
+			
+			<!--Echo User Ip address-->
+			<?php echo $ip=getIP() ?>
 			
 			<div class="product_wrapper"> 
 			<?php Search(); ?>
@@ -92,6 +97,7 @@ include("functions/functions.php");
 		<!--Foot Start-->		
 		<div class="foot_wrapper">
 			<h3 style="text-align:center; ">&copy; 2014 by www.OnlineTuting.com</h3>
+			<?php echo "$ip=getIP()" ?>
 		</div>
 		<!--Foot End---->
 	

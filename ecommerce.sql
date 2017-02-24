@@ -11,6 +11,10 @@ CREATE TABLE `ecommerce`.`brands` ( `brand_id` INT(100) NOT NULL AUTO_INCREMENT 
 #Create Table cart
 CREATE TABLE `ecommerce`.`cart` ( `p_id` INT(10) NOT NULL , `ip_add` VARCHAR(255) NOT NULL , `qty` INT(10) NOT NULL ) ENGINE = InnoDB; 
 
+#Create Table customers
+CREATE TABLE `ecommerce`.`customers` ( `customer_id` INT(10) NOT NULL , `customer_ip` VARCHAR(255) NOT NULL , `customer_name` TEXT NOT NULL , `customer_email` VARCHAR(100) NOT NULL , `customer_pass` VARCHAR(100) NOT NULL , `customer_country` TEXT NOT NULL , `customer_city` TEXT NOT NULL , `customer_contact` VARCHAR(255) NOT NULL , `customer_image` TEXT NOT NULL , PRIMARY KEY (`customer_id`)) ENGINE = InnoDB;
+
+
 
 #Insert Table brand values
 INSERT INTO `brands` (`brand_id`, `brand_title`) VALUES (NULL, 'Lenovo'), (NULL, 'Sony'), (NULL, 'HP'), (NULL, 'DELL'), (NULL, 'Huawei'), (NULL, 'LG'), (NULL, 'Samsung'), (NULL, 'Apple')
